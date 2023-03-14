@@ -1,12 +1,54 @@
 imie, nazwisko, nr albumu + Praca semestralna + Narzedzia DevOps 2022/2023.
 
 Aplikacja Pizzeri, 
+ZNAK GRAFICZNY
+CZY SMART CZY CLEAR!!!!??????????
 
 Cele: 
-1
-2
-3
-4
-5
-6
+1. Możliwość zamawiania pizzy bez stania w kolejce przez aplikacje mobilną lub w sklepie.
+2. Zbieranie statystyk na temat zamawianych przez klientow pizzy.
+3. Zbieranie ocen pizzy, co pozwala na dopracowanie produktu.
+4. Możliwość prostego przydzielania kodów rabatowych.
+5. Opcja tworzenia własnej pizzy z dobranymi przez klienta sk ladnikami.
+6. Tworzenie rankingów najpopularnijszych pizz stworzonych przez klientów.
+7. Możliwość stworzenia konta przez klienta
+
 ---------------------
+
+15
+Wymagania funkcjonalnych z atrybutami:
+  1. Aplikacja działa bezbłendnie bez potrzeby nadzoru ze strony technicznego
+  2. Aplikacja mobilna działa szybko
+  3. Aplikacja jest prosta w użytku
+  4. Aplijkacja pozwala na tworzenie niestandardowych pizz przez użytkowników
+  5. Tworzenie kont użytkowników
+  6. Zapamietywania historii kupionych produktow na kontach
+  7. Możliwość dodawania pizz do listy ulubionych produktów
+  8. Sugestie produktów dla klientów
+  9. System lokalnie musi działać bez potrzeby logowania
+  10. Aplikacja obsługuje popularne systemy płatności
+  11. Aplikacja informuje o promocjach
+  12. Aplikacja informuje o dostępności produktu
+  13. Aplikacja pozwala na wyszukiwanie pizz po składnikach
+  14. Aplikacja informuje o możliwościach dostawy
+  15. Aplikacja posiada niskie wymagania, co pozwala uruchomić ją nawet na starych urządzeniach
+
+
+
+5 wymagań niefunkcjonalnych z atrybutami:
+  1. Aplikacja jest zabezpieczona przed atakimi hackerskimi
+    -Rozwiąanie: Zapewnienie weryfikacji i szyfrowania
+    -Uzasadnienie: ataki hackerski mogą narazic firme na koszty poprzez powpodowanie awarii systemu
+  2. Serwer
+    -Rozwiąanie: implementcja serwera Linuxowego
+    -Uzasadnienie: serwer jest potrzebny do odbierania zamówien
+  3. Baza danych
+    -Rozwiąanie: Implementacja bazy danych na serwerze
+    -Uzasadnienie: Potrzeba przechowywania danych kont, niestandardowych pizz, opini i statystyk
+  4. Terminale do zamówień
+    -Rowiązanie: Implementacja terminali do obsługi zamówień
+    -Uzasadnienie: Klienci potrzebują posiadać możliwośc zamawiania produktów bez posiadania smartfonów
+  5. Serwis działa bezbłędnie
+     -Rozwiązanie: Upewnienie się, że system jest w stanie pracować bez potrzeby ciągłego wsparcia technicznego
+     -Uzasadnienie: Częsta konserwacja zwiększa koszty użytkowania aplikacji.
+

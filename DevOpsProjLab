@@ -17,7 +17,16 @@ Cele:
 
 15
 Wymagania funkcjonalnych z atrybutami:
-  1. Aplikacja działa bezbłendnie bez potrzeby nadzoru ze strony technicznego
+  1. Aplikacja działa bezbłendnie
+    Identyfikator: F-01
+    Nazwa: Bezbłędność
+    Opis: Aplikacja działa bezbłendnie bez potrzeby ciągłego nadzoru ze strony zespołu technicznego
+    Autor: Product Owner
+    Źródło: Sprawność aplikacji
+    Stabilność: Niezmienne
+    Krytyczność: Oszacowanie możliwości wpływu na działanie systemu w przypadku nieprawidłowego zaimplementowania wymagania.
+    Priorytet: Pierwszorzędny
+    
   2. Aplikacja mobilna działa szybko
   3. Aplikacja jest prosta w użytku
   4. Aplijkacja pozwala na tworzenie niestandardowych pizz przez użytkowników
